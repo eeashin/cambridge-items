@@ -1,0 +1,14 @@
+{
+  "name": "cambridge-items",
+  "author": "Eashin Matubber",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun --watch index.js",
+    "start": "bun index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
