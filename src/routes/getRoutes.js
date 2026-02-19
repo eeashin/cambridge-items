@@ -30,7 +30,9 @@ router.get("/out-of-stock", async (_req, res) => {
 
 //GET /items/:id
 router.get("/:id", async (req, res) => {
-  const item = await getItemById(req.params.id);
+  const item = await getItemById(
+    req.params.id
+);
   res.json(item);
 });
 

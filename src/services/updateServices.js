@@ -38,3 +38,21 @@ export async function incrementStock(id, amount) {
   await writeStore(store);
   return item;
 }
+
+//vii. Increment stock of all items by x amount
+export async function incrementAllStock(amount) {
+  const value = validateAmount(amount);
+  const store = await readStore();
+  for (const item of store.items) {
+    const currentQty = Number(item.quantity ?? 0);
+    if (!Number.isFinite(currentQty)) {
+      const err = new Error(`invalid item quantity for id ${item.id}`);
+      err.status = 500;
+      throw err;
+    }
+    item.quantity = currentQty + value;
+  }
+  await writeStore(store);
+
+  return store.items;
+}

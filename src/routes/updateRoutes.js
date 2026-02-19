@@ -1,7 +1,8 @@
 import express from "express";
 import { 
     decrementStock,
-     incrementStock
+    incrementStock,
+    incrementAllStock
  } from "../services/updateServices.js";
 
 const router = express.Router();
@@ -23,5 +24,14 @@ router.patch("/:id/increment", async (req, res) => {
 );
   res.json(updated);
 });
+
+// PATCH /items/increment-all
+router.patch("/increment-all", async (req, res) => {
+  const items = await incrementAllStock(
+    req.body?.amount
+);
+  res.json(items);
+});
+
 
 export default router;
