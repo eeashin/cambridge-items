@@ -10,3 +10,11 @@ export async function readStore() {
 
   return store;
 }
+
+export async function writeStore(store) {
+  await Bun.write(
+    ITEMS_FILE,
+    JSON.stringify(store, null, 2)
+  );
+}
+

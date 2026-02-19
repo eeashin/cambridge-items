@@ -1,9 +1,9 @@
 import express from "express";
 import getRoutes from "./routes/getRoutes.js";
+import updateRoutes from "./routes/updateRoutes.js";
 
 export function createApp() {
   const app = express();
-
   app.use(express.json());
 
   //health check
@@ -13,6 +13,7 @@ export function createApp() {
 
   //routes
   app.use("/items", getRoutes);
+  app.use("/items", updateRoutes);
 
   //404 handler
   app.use((_req, res) => {
@@ -20,13 +21,13 @@ export function createApp() {
   });
 
   //error handler
-  app.use((err, _req, res, _next) => {
-    console.error(err);
+app.use((err, _req, res, _next) => {
+  console.error(err);
 
-    res.status(500).json({
-      error: err?.message || "internal server error",
-    });
+  res.status(err.status || 500).json({
+    error: err.message || "internal server error",
   });
+});
 
   return app;
 }

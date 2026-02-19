@@ -1,34 +1,154 @@
 {
   "items": [
-    { "id": 1, "name": "Wireless Mouse", "quantity": 45 },
-    { "id": 2, "name": "USB Cable", "quantity": 120 },
-    { "id": 3, "name": "Laptop Stand", "quantity": 0 },
-    { "id": 4, "name": "Mechanical Keyboard", "quantity": 23 },
-    { "id": 5, "name": "Monitor", "quantity": 8 },
-    { "id": 6, "name": "Webcam", "quantity": 0 },
-    { "id": 7, "name": "Desk Lamp", "quantity": 67 },
-    { "id": 8, "name": "Notebook", "quantity": 200 },
-    { "id": 9, "name": "Pen Set", "quantity": 15 },
-    { "id": 10, "name": "External Hard Drive", "quantity": 0 },
-    { "id": 11, "name": "Phone Charger", "quantity": 89 },
-    { "id": 12, "name": "Headphones", "quantity": 34 },
-    { "id": 13, "name": "Mouse Pad", "quantity": 156 },
-    { "id": 14, "name": "HDMI Cable", "quantity": 42 },
-    { "id": 15, "name": "Printer Paper", "quantity": 0 },
-    { "id": 16, "name": "Stapler", "quantity": 28 },
-    { "id": 17, "name": "Scissors", "quantity": 19 },
-    { "id": 18, "name": "Sticky Notes", "quantity": 0 },
-    { "id": 19, "name": "Water Bottle", "quantity": 73 },
-    { "id": 20, "name": "Coffee Mug", "quantity": 51 },
-    { "id": 21, "name": "Desk Organizer", "quantity": 12 },
-    { "id": 22, "name": "Power Strip", "quantity": 36 },
-    { "id": 23, "name": "Ethernet Cable", "quantity": 0 },
-    { "id": 24, "name": "Whiteboard Marker", "quantity": 94 },
-    { "id": 25, "name": "Folder", "quantity": 167 },
-    { "id": 26, "name": "Binder Clips", "quantity": 0 },
-    { "id": 27, "name": "Laptop Sleeve", "quantity": 14 },
-    { "id": 28, "name": "Desk Chair", "quantity": 5 },
-    { "id": 29, "name": "Cable Ties", "quantity": 203 },
-    { "id": 30, "name": "Screen Cleaner", "quantity": 61 }
+    {
+      "id": 1,
+      "name": "Wireless Mouse",
+      "quantity": 42
+    },
+    {
+      "id": 2,
+      "name": "USB Cable",
+      "quantity": 120
+    },
+    {
+      "id": 3,
+      "name": "Laptop Stand",
+      "quantity": 0
+    },
+    {
+      "id": 4,
+      "name": "Mechanical Keyboard",
+      "quantity": 23
+    },
+    {
+      "id": 5,
+      "name": "Monitor",
+      "quantity": 8
+    },
+    {
+      "id": 6,
+      "name": "Webcam",
+      "quantity": 0
+    },
+    {
+      "id": 7,
+      "name": "Desk Lamp",
+      "quantity": 67
+    },
+    {
+      "id": 8,
+      "name": "Notebook",
+      "quantity": 200
+    },
+    {
+      "id": 9,
+      "name": "Pen Set",
+      "quantity": 15
+    },
+    {
+      "id": 10,
+      "name": "External Hard Drive",
+      "quantity": 0
+    },
+    {
+      "id": 11,
+      "name": "Phone Charger",
+      "quantity": 89
+    },
+    {
+      "id": 12,
+      "name": "Headphones",
+      "quantity": 34
+    },
+    {
+      "id": 13,
+      "name": "Mouse Pad",
+      "quantity": 156
+    },
+    {
+      "id": 14,
+      "name": "HDMI Cable",
+      "quantity": 42
+    },
+    {
+      "id": 15,
+      "name": "Printer Paper",
+      "quantity": 0
+    },
+    {
+      "id": 16,
+      "name": "Stapler",
+      "quantity": 28
+    },
+    {
+      "id": 17,
+      "name": "Scissors",
+      "quantity": 19
+    },
+    {
+      "id": 18,
+      "name": "Sticky Notes",
+      "quantity": 0
+    },
+    {
+      "id": 19,
+      "name": "Water Bottle",
+      "quantity": 73
+    },
+    {
+      "id": 20,
+      "name": "Coffee Mug",
+      "quantity": 51
+    },
+    {
+      "id": 21,
+      "name": "Desk Organizer",
+      "quantity": 12
+    },
+    {
+      "id": 22,
+      "name": "Power Strip",
+      "quantity": 36
+    },
+    {
+      "id": 23,
+      "name": "Ethernet Cable",
+      "quantity": 0
+    },
+    {
+      "id": 24,
+      "name": "Whiteboard Marker",
+      "quantity": 94
+    },
+    {
+      "id": 25,
+      "name": "Folder",
+      "quantity": 167
+    },
+    {
+      "id": 26,
+      "name": "Binder Clips",
+      "quantity": 0
+    },
+    {
+      "id": 27,
+      "name": "Laptop Sleeve",
+      "quantity": 14
+    },
+    {
+      "id": 28,
+      "name": "Desk Chair",
+      "quantity": 5
+    },
+    {
+      "id": 29,
+      "name": "Cable Ties",
+      "quantity": 203
+    },
+    {
+      "id": 30,
+      "name": "Screen Cleaner",
+      "quantity": 61
+    }
   ]
 }

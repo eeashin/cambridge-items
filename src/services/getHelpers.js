@@ -28,3 +28,4 @@ export function getOutOfStockItems(items) {
     (item) => Number(item.quantity ?? 0) === 0
   );
 }
+

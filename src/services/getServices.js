@@ -3,7 +3,7 @@ import {
   findItemById,
   getMaxStockItem,
   getOutOfStockItems
- } from "./helpers.js";
+ } from "./getHelpers.js";
 
 
 //i. Get all items
