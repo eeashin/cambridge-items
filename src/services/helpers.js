@@ -22,3 +22,9 @@ export function getMaxStockItem(items) {
 
   return maxItem;
 }
+
+export function getOutOfStockItems(items) {
+  return items.filter(
+    (item) => Number(item.quantity ?? 0) === 0
+  );
+}

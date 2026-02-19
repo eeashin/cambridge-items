@@ -1,7 +1,8 @@
 import { readStore } from "../storage/store.js";
 import { 
   findItemById,
-  getMaxStockItem
+  getMaxStockItem,
+  getOutOfStockItems
  } from "./helpers.js";
 
 
@@ -27,4 +28,10 @@ export async function getItemById(id) {
 export async function getItemWithMaxStock() {
   const store = await readStore();
   return getMaxStockItem(store.items);
+}
+
+//iv. Get all out of stock items
+export async function getOutOfStock() {
+  const store = await readStore();
+  return getOutOfStockItems(store.items);
 }

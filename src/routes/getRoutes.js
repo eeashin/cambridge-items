@@ -2,7 +2,8 @@ import express from "express";
 import { 
     getAllItems,
     getItemById,
-    getItemWithMaxStock
+    getItemWithMaxStock,
+    getOutOfStock
  } from "../services/getServices.js";
 
 const router = express.Router();
@@ -19,6 +20,13 @@ router.get("/max-stock", async (_req, res) => {
   if (!item) return res.status(404).json({ error: "no items" });
   res.json(item);
 });
+
+//GET /items/out-of-stock
+router.get("/out-of-stock", async (_req, res) => {
+  const items = await getOutOfStock();
+  res.json(items);
+});
+
 
 //GET /items/:id
 router.get("/:id", async (req, res) => {
